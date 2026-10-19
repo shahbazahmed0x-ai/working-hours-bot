@@ -91,7 +91,7 @@ STATUS_TEXT = {
 }
 
 # Configuration
-TELEGRAM_BOT_TOKEN = os.getenv("8841122696:AAEAnoshxq_A2cEiy1xC3MnUz1ZJ63Pgf0g")
+TELEGRAM_BOT_TOKEN = os.getenv("8841122696:")
 DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///./data/working_hours.db")
 AUTO_LOGOUT_HOUR = int(os.getenv("AUTO_LOGOUT_HOUR", 18))
 AUTO_LOGOUT_MINUTE = int(os.getenv("AUTO_LOGOUT_MINUTE", 0))
